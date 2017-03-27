@@ -134,6 +134,7 @@ gulp.task('struct', function(){
     'app/**/*.html',
     'assets/**/*.min.js',
     'assets/**/*.min.css',
+    'assets/libraries/bulma/css/*.css',
     'assets/images/*'
   ], {base: './'})
     .pipe(gulp.dest('dev'));
